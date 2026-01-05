@@ -1,0 +1,104 @@
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.nar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+.gradle/
+build/
+
+# Kotlin
+.kotlin
+*.kotlin_module
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+
+# Eclipse
+.settings/
+.project
+.classpath
+.factorypath
+.apt_generated
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+.springBeans
+.sts4-cache
+
+# NetBeans
+nbproject/
+build/
+dist/
+nbdist/
+.nb-gradle/
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Allure
+allure-report/
+allure-results/
+
+# Maven
+target/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+hs_err_pid*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# BlueJ
+*.ctxt
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# Mobile Tools for Java
+.mtj.tmp/
+
+# Tests output
+test-output/
+test-results/
+
+# Build scan
+.scans/
+gradle-app.setting
+
+# JUnit 5 reports
+junit-platform.properties
