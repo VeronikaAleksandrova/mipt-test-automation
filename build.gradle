@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'io.qameta.allure' version '2.11.2' // Версия Gradle Plugin
+    id 'org.wiremock.tools.gradle.wiremock-extension-convention' version '0.1.2'
 }
 
 group = 'com.aleksandrovaveronika'
@@ -17,6 +18,9 @@ dependencies {
     testImplementation 'io.qameta.allure:allure-assertj:2.24.0'
     implementation 'io.qameta.allure:allure-java-commons:2.24.0'
     testImplementation 'org.mockito:mockito-junit-jupiter:5.11.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.38.0'
+
+    // WireMock dependencies (управляются плагином wiremock-extension-convention)
 }
 
 test {
